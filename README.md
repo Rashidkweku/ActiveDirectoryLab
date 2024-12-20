@@ -1,4 +1,4 @@
-<h1>Active Directory Home Lab</h1>
+<h1>Filtering in SQL Queries</h1>
 
 
 
@@ -14,30 +14,47 @@
 <h2>Program walk-through:</h2>
 
 <p align="center">
-FILE PERMISSION IN LINUX: <br/>
-Managing authorization: <br/>
-Check file and directory details:
+Apply Filters to SQL Queries: <br/>
+Retrieve after hours failed login attempts : <br/>
+
   
-  <img src="https://i.imgur.com/teZ3Loo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://imgur.com/9cH3HEq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <p align="center">
-Change file permissions:  <br/>
+Retrieve login attempts on specific dates :  <br/>
 
-  <img src="https://i.imgur.com/g1Rq3GM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://imgur.com/bDWqgnW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <p align="center">
-Change file permissions on a hidden file: <br/>
+Retrieve login attempts outside of Mexico : <br/>
 
-  <img src="https://i.imgur.com/axoV2BK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://imgur.com/qhq2zNg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   
 <br />
 <br />
-Change directory permissions:  <br/>
-<img src="https://i.imgur.com/gAXZOqR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Retrieve employees in Marketing :  <br/>
+<img src="https://imgur.com/VFmrJjR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
+<br />
+Retrieve employees in Finance or Sales :  <br/>
+<img src="https://imgur.com/bVIag0A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+
+<br />
+ Retrieve all employees not in IT :  <br/>
+<img src="https://imgur.com/VTpRpaU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+<br />
+Summary :  <br/>
+<p align="center">
+I applied filters to SQL queries to get specific information on login attempts and employee machines. I used two different tables, log_in_attempts and employees. I used the AND, OR, and NOT operators to filter for the specific information needed for each task. I also used LIKE and the percentage sign (%) wildcard to filter for patterns. 
 
 <!--
  ```diff
