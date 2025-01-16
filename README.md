@@ -4,9 +4,9 @@
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
+- <b>Linux</b> 
 
-- <b>GoogleCloud</b>
+
 <h2>Environments Used </h2>
 
 - <b>Windows 10</b> (21H2)
